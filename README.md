@@ -1,3 +1,5 @@
+Project completed together with Pierre
+
 ![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
 
 # CSS | Spotify Clone
