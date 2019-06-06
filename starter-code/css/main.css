@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+#menu {
+  width: 100vw;
+  background-color: #fff;
+
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu img {
+  height: 60px;
+}
+#menu ul {
+  display: flex;
+  align-items: center;
+}
+
+#menu ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  transition-duration: 1s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#menu ul li:hover {
+  background-color: #1db954;
+  color: #fff;
+  transition-duration: 1s;
+}
+
+.main-container {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-container p {
+  font-size: 1.4rem;
+  padding: 10px;
+  font-weight: lighter;
+  line-height: 2rem;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 25px 0 100px 0;
+}
+
+.container hr {
+  width: 22%;
+  margin: 15px auto;
+  margin-top: 0;
+  height: 5px;
+  background-color: #1db954;
+  border: none;
+  margin-bottom: 100px;
+}
+.container-foot {
+  background-color: #1db954;
+  background-image: url("../images/spotify-icon-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  color: #fff !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  margin: 40px;
+}
+.container-foot h3 {
+  color: #fff;
+  padding-left: 0;
+}
+.container-foot hr {
+  width: 96%;
+  margin: 15px auto;
+  margin-top: 0;
+  height: 5px;
+  background-color: #fff;
+  border: none;
+  margin-left: 0;
+}
+.container-foot img {
+  height: 650px;
+}
+.container-foot p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding: 10px 0 10px 0;
+}
+.items img {
+  height: 120px;
+  padding: 13px;
+}
+
+.items {
+  width: 30%;
+  text-align: center;
+  justify-content: baseline;
+}
+.items p {
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #1db954;
+  padding: 15px;
+  font-size: 2rem;
+  margin
+}
+
+h4 {
+  font-size: 1.6rem;
+  padding: 20px 0px 20px 0px;
+}
